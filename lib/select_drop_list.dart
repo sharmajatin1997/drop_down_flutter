@@ -32,8 +32,7 @@ class SelectDropListState extends State<SelectDropList>
     late OptionItem optionItemSelected;
     late AnimationController expandController;
     late Animation<double> animation;
-
-  bool isShow = false;
+    bool isShow = false;
 
   @override
   void initState() {
